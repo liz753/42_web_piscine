@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+.parallax {
+  background-image: url("./Watrous.jpg");
+  min-height: 500px; 
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 2px #050000;
+  font-size: 2rem;
+}
+
+p {
+	margin: 0;
+} 
+
+.parallax div {
+	position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.sectiontwo {
+	height: 500px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	padding: 40px;
+}
+
+.secondpic {
+	background-image: url("./vase.jpeg");
+	min-height: 500px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
